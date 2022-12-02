@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_neon"
+    tools:context=".Host">
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="208dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/pink_block" />
+
+  <ImageView
+      android:id="@+id/Home_Page_From_Host"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/home" />
+
+  <ImageView
+      android:id="@+id/Profile_Page_From_Host"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/profile" />
+
+  <ImageView
+      android:id="@+id/Refresh_Host"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="40dp"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:srcCompat="@drawable/host_blue" />
+
+  <ImageView
+      android:id="@+id/Fav_Page_From_Host"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/fav" />
+
+  <ImageView
+      android:id="@+id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="129dp"
+      android:layout_marginTop="428dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/submit_but" />
+
+  <EditText
+      android:id="@+id/event_name"
+      android:layout_width="239dp"
+      android:layout_height="37dp"
+      android:layout_marginStart="84dp"
+      android:layout_marginTop="316dp"
+      android:background="@drawable/input_box"
+      android:ems="10"
+      android:hint="Event Name"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textColorHint="@color/white"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/event_host"
+      android:layout_width="239dp"
+      android:layout_height="37dp"
+      android:layout_marginStart="84dp"
+      android:layout_marginTop="372dp"
+      android:background="@drawable/input_box"
+      android:ems="10"
+      android:hint="Host Name"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textColorHint="@color/white"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      android:text="JolFinder."
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnMap"
+      android:layout_width="67dp"
+      android:layout_height="61dp"
+      android:layout_marginStart="168dp"
+      android:layout_marginTop="236dp"
+      android:background="@drawable/world"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
