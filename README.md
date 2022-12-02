@@ -13,12 +13,17 @@ The application uses MySQL as the database which is run through XAMPP
 Below is some snippets of the application running:
 
 The Login Screen:
+
 ![image](https://user-images.githubusercontent.com/73423789/205262624-ee39fc63-ae6a-4f13-a7c6-64b923d080bd.png)
 
+
 The Home Screen:
+
 ![image](https://user-images.githubusercontent.com/73423789/205262838-50dc1350-d2a3-4060-b861-993b302f0047.png)
 
+
 The application showing nearest Bars/Clubs to the user:
+
 ![image](https://user-images.githubusercontent.com/73423789/205262997-fc41241a-ba9a-4c8f-8208-d2c5936ca4f6.png)
 
 
